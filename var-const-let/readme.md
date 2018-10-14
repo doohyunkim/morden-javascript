@@ -1,14 +1,14 @@
 
 var, let, const 
 -
-###기능<br>
-#####var > let > const<br>
+기능<br>
+var > let > const<br>
 ```
 var = redeclare, change value.<br>
 let = **not** redeclare, change value. <br>
 const = **not** redeclare, **not** change
 ```
-###Scope
+Scope<br>
 var = function scope <br>
 let, const = block-scope <br>
 
