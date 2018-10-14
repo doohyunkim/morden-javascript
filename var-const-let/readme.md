@@ -4,8 +4,8 @@ var, let, const
 기능<br>
 var > let > const<br>
 ```
-var = redeclare, change value.<br>
-let = **not** redeclare, change value. <br>
+var = redeclare, change value.
+let = **not** redeclare, change value. 
 const = **not** redeclare, **not** change
 ```
 Scope<br>
