@@ -1,10 +1,23 @@
 
-var > let > const 의 기능 범위
+var, let, const 
+-
+###기능<br>
+#####var > let > const<br>
+```
+var = redeclare, change value.<br>
+let = **not** redeclare, change value. <br>
+const = **not** redeclare, **not** change
+```
+###Scope
+var = function scope <br>
+let, const = block-scope <br>
 
-var = redeclare, change value.<br/>
-let = **not** redeclare, change value. <br/>
-const = **not** redeclare, **not** change <br/>
-
-
-var = function scope <br/>
-let, const = block-scode <br/>
+```
+var topic = "javascript"
+if(topic) {
+	let topic = "react"
+	console.log('block', topic) //(global react)
+}
+console.log('global', topic) // (global javascript)
+// if it's declare var, console.log print global react twice
+```
